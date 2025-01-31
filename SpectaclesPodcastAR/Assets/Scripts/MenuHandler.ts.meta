@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/06aa68b4-918e-4ae7-982c-28cd212ff391>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e35d575c-72db-490d-963e-8a43b279377e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e35d575c-72db-490d-963e-8a43b279377e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 13a672a5-f5b4-4c56-a76c-c521df9c57f5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d6a6178c-42c1-4061-a265-8dbf0ffe4ca0>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/13a672a5-f5b4-4c56-a76c-c521df9c57f5>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    containerFrame: false
+    podcastContainer: false
+    scr: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - containerFrame: !<MappingBased.ContainerFrame> 00000000-0000-0000-0000-000000000000
+      podcastContainer: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scr: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent containerFrame
+    - // @input Component.ScriptComponent podcastContainer
+    - // @input SceneObject scr

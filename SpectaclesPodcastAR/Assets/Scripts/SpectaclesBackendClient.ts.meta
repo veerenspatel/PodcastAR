@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/cec78c00-6375-4227-b44d-df7b4fe86ad8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ecb2e62a-912a-42da-a66b-b8a45ca42d01
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ecb2e62a-912a-42da-a66b-b8a45ca42d01
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0ee4638e-e107-41d7-a8ec-954fe7d514c2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/73bb6a4b-3208-4b68-92c6-708a257bdff3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0ee4638e-e107-41d7-a8ec-954fe7d514c2>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    containerPrefab: false
+    remoteServiceModule: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - containerPrefab: !<reference.ObjectPrefab> 7b452bae-d4ba-471d-99d4-175d05c00278
+      remoteServiceModule: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.RemoteServiceModule remoteServiceModule
+    - // @input Asset.ObjectPrefab containerPrefab

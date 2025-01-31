@@ -1,0 +1,137 @@
+- !<AssetImportMetadata/2521a1ee-97ca-48e8-9c6c-f023b893ffd3>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 7b452bae-d4ba-471d-99d4-175d05c00278
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 7b452bae-d4ba-471d-99d4-175d05c00278
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 0fc43715-49fc-4812-a396-5d7c2adb7a1e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/777f245c-6e18-4e3b-bf47-84a890e178df>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/0fc43715-49fc-4812-a396-5d7c2adb7a1e>
+  SourceRemaps:
+    - 2ad92238-588d-4980-adcc-fa82e728607e: 82de0a78-54f0-42a4-87aa-99096eee6b07
+    - 4307beb1-f91d-42b4-9f90-1850f3a76057: 17a5d6ed-9e2b-4c4d-882a-15e4dd923134
+    - 77e3538d-d398-4707-a641-3125f5465639: db2ed342-bde3-4981-9184-077e52ecf052
+    - 7b452bae-d4ba-471d-99d4-175d05c00278: 83287e04-cf5e-49ba-82eb-849b29ac370e
+    - 8fbc1fd9-0c1f-4635-bea2-d943328e1d26: f350e4a1-2b0f-44e0-8526-5c16e2425c95
+  SourceState: !<own> 83287e04-cf5e-49ba-82eb-849b29ac370e
+- !<Image/17a5d6ed-9e2b-4c4d-882a-15e4dd923134>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 127ef673-c2c8-471b-9cad-ccaa99b6b9b7
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/82de0a78-54f0-42a4-87aa-99096eee6b07>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 32.000000, y: 32.000000, z: 32.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 17a5d6ed-9e2b-4c4d-882a-15e4dd923134
+- !<ObjectPrefab/83287e04-cf5e-49ba-82eb-849b29ac370e>
+  PackagePath: ""
+  objects:
+    - !<own> db2ed342-bde3-4981-9184-077e52ecf052
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/db2ed342-bde3-4981-9184-077e52ecf052>
+  PrefabRemaps:
+    []
+  Name: PodcastImageBaseContainer
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 82de0a78-54f0-42a4-87aa-99096eee6b07
+  Components:
+    - !<own> f350e4a1-2b0f-44e0-8526-5c16e2425c95
+- !<ScriptComponent/f350e4a1-2b0f-44e0-8526-5c16e2425c95>
+  PrefabRemaps:
+    []
+  Name: ContainerFrame
+  Enabled: true
+  ScriptAsset: !<reference> 14c9f79e-3a55-43d4-bbf6-75c0d6d2e2a2
+  ScriptInputsDefault:
+    innerSize: true
+    border: true
+    constantPadding: true
+    allowScaling: true
+    autoScaleContent: true
+    isContentInteractable: true
+    allowTranslation: true
+    minimumSize: true
+    maximumSize: true
+    useBillboarding: true
+    xOnTranslate: true
+    xAlways: true
+    yOnTranslate: true
+    yAlways: true
+    useSnapping: true
+    itemSnapping: true
+    worldSnapping: true
+    showFollowButton: true
+    useFOVFollow: true
+    isFollowing: true
+    showCloseButton: true
+    _enableInteractionPlane: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      autoShowHide: false
+      innerSize: !<Vec2> {x: 32.000000, y: 32.000000}
+      border: !<float> 4.000000
+      constantPadding: !<Vec2> {x: 0.000000, y: 0.000000}
+      allowScaling: true
+      autoScaleContent: true
+      isContentInteractable: false
+      allowTranslation: true
+      minimumSize: !<Vec2> {x: 10.000000, y: 10.000000}
+      maximumSize: !<Vec2> {x: 300.000000, y: 300.000000}
+      useBillboarding: false
+      xOnTranslate: false
+      xAlways: false
+      yOnTranslate: false
+      yAlways: false
+      useSnapping: false
+      itemSnapping: false
+      worldSnapping: false
+      showFollowButton: false
+      useFOVFollow: false
+      isFollowing: false
+      showCloseButton: true
+      _enableInteractionPlane: false
+  ScriptTypes:
+    "":
+      {}
